@@ -1,0 +1,52 @@
+<html>
+   
+ 
+    <head>
+        <title>E-VOTING</title>
+        <link rel="stylesheet" href="routes/css/style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>    
+
+
+    <body>
+        <center>
+        <div id="headerSection">
+            <h1>E-VOTING</h1>
+        </div>
+        <hr>
+
+        <div id="bodySection">
+            <form action="routes/api/login.php" method="POST">
+                <div id="log">
+                <h2>Login</h2>
+                 </div>
+                <input type="number" name="mobile" placeholder="Enter Mobile"><br><br>
+                <input type="password" name="password" placeholder="Enter Password"><br><br>
+                <select id="dropbox" name="role">
+                    <option value="1">Voter</option>
+                    <option value="2">Group</option>
+                </select><br><br>
+                <button id="loginbtn" type="submit">Login</button><br><br>
+
+                <div id="usersection">
+                New user? <a href="routes/register.html">Register here</a>
+                </div>
+            </form>
+        </div>
+    </center>  
+    </body>
+
+    
+    <br><br><br><br><br><br><br><br><br><br><br>
+    <div id="footersection">
+    <footer>
+        <div id="foot1">
+        <p> &#169 Suvojit Goswami 	&#9763</p>
+        </div>
+        <div id="foot2">
+        <p> &#9993 Email: <a href="mailto:suvojitgoswami2019@gmail.com">suvojitgoswami2019@gmail.com</a></p>
+        </div>
+      </footer>
+    </div>
+
+</html>
